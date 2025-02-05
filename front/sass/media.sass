@@ -1,0 +1,109 @@
+@media screen and (max-width: 1400px)
+  .gamesPage
+    .main
+      width: 1010px
+    .title
+      .filters
+        &__info
+          width: 245px
+    .content
+      .game
+        margin-right: 34px
+        &:nth-child(4n)
+          margin-right: 34px
+        &:nth-child(3n)
+          margin-right: 0
+
+@media screen and (max-width: 1090px)
+  .gamesPage
+    .main
+      width: 608px
+      margin-top: 40px
+      margin-bottom: 129px
+    .title
+      &__top
+        justify-content: space-between
+    .title
+      .filters
+        flex-wrap: wrap
+        &__item
+          &:nth-child(1), &:nth-child(2)
+            margin-bottom: 28px
+        &__info
+          width: 292px
+    .content
+      .game
+        border-radius: 16px
+        box-shadow: -8px -8px 8px 0px rgba(222, 222, 222, 0.25), 4px 4px 4px 0px rgba(232, 232, 232, 0.15)
+        height: 524px
+        width: 292px
+        margin-right: 24px
+        padding: 16px 15px 29px 15px
+        &:nth-child(3n)
+          margin-right: 24px
+        &:nth-child(2n)
+          margin-right: 0
+        &:nth-child(n+7)
+          display: none
+        &__top
+          max-height: 226px
+          min-height: 226px
+        &__center
+          &-info
+            font-size: 14px
+        &__buttons
+          flex-direction: column
+          &-btn
+            width: 100%
+          .btn-play
+            margin-top: 12px
+
+@media screen and (max-width: 645px)
+  .gamesPage
+    .main
+      width: 353px
+      margin-top: 26px
+      margin-bottom: 140px
+    .title
+      &__top
+        flex-direction: column
+        width: 100%
+      .quicksearch
+        width: 100%
+      .switcher
+        margin-top: 16px
+        align-self: flex-end
+      .filters
+        flex-direction: column
+        &__item
+          margin-bottom: 16px
+          &:nth-child(1), &:nth-child(2)
+            margin-bottom: 16px
+        &__info
+          width: 100%
+      &__bottom
+        margin-bottom: 5px
+    .content
+      .game
+        width: 100%
+        margin-right: 0
+        margin-bottom: 8px
+        &:nth-child(n+5)
+          display: none
+        &:nth-child(3n)
+          margin-right: 0
+        &:nth-child(2n)
+          margin-right: 0
+    .moreBnt
+      margin-top: 20px
+      width: 100%
+
+@media screen and (max-width: 374px)
+  .gamesPage
+    .main
+      width: 90%
+    .content
+      .game
+        &__top
+          max-height: 200px
+          min-height: 200px
